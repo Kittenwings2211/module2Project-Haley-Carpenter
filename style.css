@@ -1,0 +1,54 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url(https://i0.wp.com/animeindia.in/wp-content/uploads/2023/06/image-56.png?resize=811%2C457&ssl=1);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .img-fluid{
+    width: auto;
+    max-width: 80%;
+    margin-top: -30%;
+} */
+
+.container {
+    width: 800;
+    max-width: 80%;
+    margin-top: 25%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: hsl(200, 100%, 50%);
+    border: 1px solid hsl(200, 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
